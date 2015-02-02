@@ -10,7 +10,8 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #dae3e7;
+  /*background: url("../../web-dev2.jpg") no-repeat center top fixed;*/
+  background: #a1aab9;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -68,6 +69,7 @@ a.btn-cta-primary:hover,
   background: #49ac43;
   border: 1px solid #49ac43;
   color: #fff;
+  box-shadow: 3px 3px 8px #888888;
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
@@ -82,6 +84,7 @@ a.btn-cta-secondary:hover,
   background: #3893bd;
   border: 1px solid #3893bd;
   color: #fff;
+  box-shadow: 3px 3px 8px #888888;
 }
 .text-highlight {
   color: #32383e;
@@ -116,6 +119,7 @@ iframe {
   padding: 30px 0;
   background: #f5f5f5;
   border-top: 10px solid #778492;
+  box-shadow: 10px 10px 8px #888888;
 }
 .header .btn {
   margin-top: 60px;
@@ -161,6 +165,7 @@ iframe {
   font-size: 20px;
   padding-top: 8px;
 }
+
 /* ======= Sections======= */
 .sections-wrapper {
   padding-top: 60px;
@@ -168,6 +173,7 @@ iframe {
 }
 .section {
   margin-bottom: 30px;
+  box-shadow: 10px 10px 5px #888888;
 }
 .section .section-inner {
   background: #fff;
